@@ -1,0 +1,351 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #18191a;
+}
+header {
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+.container {    
+    display: flex;
+    width: 80%;
+    height: 93px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+header .container {
+    border-left: 5px solid #ff0000;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+}
+.logo, .imglogo { 
+    border-radius: 15px;
+    
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul, nav li {
+    list-style: none;
+    display: flex;
+}
+nav a {
+    display:block;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: rgb(29, 34, 42);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+nav .active a, nav a:hover {
+    border-bottom: 5px #ff0000 solid; 
+    border-bottom-left-radius: 5px;
+}
+.menu {
+    display: flex;
+}
+section {
+    display:flex;
+    justify-content:center;
+    margin-top: -12px;
+}
+#vida .container {
+    display: flex;
+    height: 500px;
+}
+.text {
+    margin-top: 85px;
+}
+.text_famousfrase {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: center;
+    text-align: justify;
+    padding: 30px;
+    margin-top: -100px;
+    margin-right: 10%;
+    margin-left: 20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+}
+.text_vida {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    justify-content: center;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+}
+.text_citacao { 
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: center;
+    text-align:end;
+    padding: 30px;
+    margin-top: -55px;
+    margin-right: 10%;
+    margin-left: 20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/Tesla.png');
+    background-position:center;
+    background-size:cover;
+    background-color: #ff0000;
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+#invencoes {
+    margin-top: 20px;
+}
+.text_inv {
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    flex-direction: column;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+    height: 90%;
+    border-radius: 15px;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+.timeline {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: #18191a;
+    height: 100%;
+    border-radius: 15px;
+    width: 25%;
+    color: #f5f5dc;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px #ff0000;
+    border-top: 2px solid #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+#invencoes .container {
+    height: 1000px;
+    margin-top: 20px;
+    align-items: center;
+    background-color: #18191a;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+#pessoal .container {
+    height: 700px;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+section {
+    margin-top: 20px;
+}
+.text_01, .text_05, .text_09, .text_13 {
+    border-right: 5px solid #ff0000;
+    border-top-right-radius: 10px;
+    padding-right: 10px;
+}
+.text_02, .text_06, .text_10, .text_14 {
+    border-left: 5px solid #ff0000;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+}
+.title {
+    text-align: left;
+    text-transform:capitalize;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pessoal .container{
+    display: flex;
+    justify-content: space-between;
+    background-image:url('../images/torre-de-wardenclyffe.png');
+    background-position:center;
+    background-size:cover;
+    background-color: #ff0000;
+    height: 600px;
+    border-radius: 15px;
+    margin-top: -10px;
+    z-index: 1;
+}
+.images_pessoal {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/torre-de-wardenclyffe.png');
+    background-position:center;
+    background-size:cover;
+    background-color: #ff0000;
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+#pessoal .text_vida {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+}
+#pessoal .text {
+    margin-top: -17px;
+}
+#pessoal .text_citacao_m{
+    margin-top: 50px;
+    margin-left: 200px;
+    flex: 1;
+    font-size: 50px;
+    align-content: center;
+    justify-content: center;
+}
+.legendafoto {
+    display: flex;
+    margin-top: 527px;
+    text-align: end;
+    justify-content: end;
+    font-size: 20px;
+    width: 100%;
+    margin-right: 10px;
+    color: #f5f5dc;
+}
+#morte .text_vida {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 20px;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+}
+#morte .container{
+    display: flex;
+    justify-content: space-between;
+    background-image:url('../images/bobina-tesla.png');
+    background-position:center;
+    background-size:cover;
+    height: 585px;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+.images_pessoal_m {
+        display: flex;
+        justify-content: center;
+        background-image:url('../images/bobina-tesla.png');
+        background-position:center;
+        background-size:cover;
+        background-color: #ff0000;
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        border-radius: 15px 0px 0px 15px;
+        align-items: center;
+}
+#morte .text_vida {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    text-align: justify;
+    background-color: #f5f5dc;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+    padding: 40px;
+    align-items: center;
+}
+.text_citacao_m {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: center;
+    text-align:end;
+    padding: 10px;
+    margin-top: -55px;
+    margin-right: 10%;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.legendafoto_m {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align:end;
+    padding: 10px;
+    margin-top: 439px;
+    margin-right: 10%;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+#referencias .container {
+    height: 250px;
+    display: flex;
+    background-color: #f5f5dc;
+
+}
+#referencias .text_vida {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    justify-content: center;
+    text-align: justify;
+    padding: 49px;
+    margin-top: 1px;
+    margin-left: 1px;
+    /* background-color: #f5f5dc; */
+    border-radius: 22px;
+    width: 291px;
+    height: 145px;
+}
+#referencias a {
+    text-decoration: none;
+}
